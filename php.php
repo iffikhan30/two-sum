@@ -3,7 +3,6 @@
  * @param Integer[] $nums
  * @param Integer $target
  * @return Integer[]
- */
     function twoSum($nums, $target) {
         $flippedArr = array_flip($nums);
         foreach ($nums as $key => $num) {
