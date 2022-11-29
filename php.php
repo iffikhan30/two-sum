@@ -1,9 +1,9 @@
 <?php 
 /**
-     * @param Integer[] $nums
-     * @param Integer $target
-     * @return Integer[]
-     */
+ * @param Integer[] $nums
+ * @param Integer $target
+ * @return Integer[]
+ */
     function twoSum($nums, $target) {
         $flippedArr = array_flip($nums);
         
