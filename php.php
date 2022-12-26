@@ -11,8 +11,11 @@
             $num2 = $target - $num;
             if (isset($flippedArr[$num2]) && $key != $flippedArr[$num2]) {
                 return [$key, $flippedArr[$num2]];
+                
             }
+            
         }
+        
         return [];
 
     } 
