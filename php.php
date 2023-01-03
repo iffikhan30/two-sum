@@ -13,10 +13,7 @@
                 return [$key, $flippedArr[$num2]];
                 
             }
-            
-        }
-        
+        }   
         return [];
-
     } 
 ?>
