@@ -4,8 +4,7 @@
  * @param Integer $target
  * @return Integer[]
  */
-
-    function twoSum($nums, $target) {
+function twoSum($nums, $target) {
         //array_flip key to value or value to key
         $flippedArr = array_flip($nums);
         foreach ($nums as $key => $num) {
